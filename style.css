@@ -1,0 +1,151 @@
+body{
+    background-color: lightgray;
+    font-family: 'Roboto Mono', monospace;
+    display: flexbox;
+    margin: 0;
+    padding: 0;
+}
+
+.headerTextDiv{
+    background-color: slategray;
+    padding: 25px;
+    width: 100vw;
+   
+}
+
+ h1{
+    font-size: 58px;
+    color: whitesmoke;
+    padding-bottom: 8px;
+    text-align: center;
+    
+}
+
+h3{
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.input-group{
+    background-color: whitesmoke;
+    justify-content: center;
+    color: grey;
+
+    
+}
+
+.form-control{
+    background-color: white;
+    color: black;
+    align-content: space-between;
+}
+
+.input-group-text{
+    background-color: white;
+    color: black;
+    align-content: space-between;
+
+}
+
+
+input{
+
+border-radius: 15px;
+margin: 15px;
+padding: 20px;
+height: 50px;
+width: 4rem;
+padding-top: 5rem;
+}
+
+.input-group{
+   height: auto;
+   
+ 
+}
+
+.input-group-text{
+  background-color: gray;
+  color: white;
+  border-radius: 15px;
+  float: right;
+  width: auto;
+  padding: 0px;
+  margin: 5px;
+}
+
+#basic-addon2{
+    width: 25rem;
+    justify-content: center;
+}
+
+
+.buttons{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+button{
+    color: red;
+    background-color: red;
+}
+
+#calculate{
+padding: 10px;
+margin: 10px;
+background-color: green;
+border: solid gray 2px;
+}
+
+#calculate:hover{
+    background-color: white;
+    color: green;
+    transition: ease .4s;
+}
+
+#clearButton{
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border: gray 2px solid;
+}
+
+#clearButton:hover{
+    background-color: red;
+    transition: ease .4s;
+    color: white;
+}
+
+#clearButton:active{
+    cursor: pointer;
+}
+
+.results{
+    background-color: whitesmoke;
+    align-content: space-between;
+    padding: 15px;
+    width: 100vw;
+}
+
+.resultNum{
+
+text-decoration: underline;
+font-size: 30px;
+margin-bottom: 2rem;
+margin-top: 1rem;
+
+}
+
+.profitPercent{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    text-decoration: underline;
+    font-size: 30px;
+}
